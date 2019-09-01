@@ -1,0 +1,17 @@
+#konfigurasi resource server
+server:
+  port: 9991
+security:
+  oauth2:
+    resource:
+      filter-order: 3
+      jwt:
+        key-value: -----BEGIN PUBLIC KEY-----
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo7MwAiapHMrKuRv+BVfu
+          SCf63Tna8fZb8NuvCpzENpY6xEJqTbSWBF2Q8hOZD42QqPLAurfKiQ5keXQGRSgF
+          706LxSZwqpkK4tU5cmMZeL1vHkkTZw93dzliIxVKKwiCMmOW+8BjDbcXBy9urmlO
+          v3CODRnYIiZcSErKqrTyxK2PqdGvOj4c52p5oKO8lvDwteZEaS5qWBJiqJZxdSW4
+          z2VMcx4dyMAA8Sw5wKhju3+oTas7Bo9SfaEo3Qg8SnOtYThKSEJvxxnEFojWMOyY
+          bSoYzVEfrdKIfgt/cPwhC11aBz28rP2VOrLtvPVr98I2bKkCSmVd78O4vMqwlCjW
+          XwIDAQAB
+          -----END PUBLIC KEY-----
